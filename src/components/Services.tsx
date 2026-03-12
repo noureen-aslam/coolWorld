@@ -2,43 +2,43 @@ import { Link } from 'react-router-dom';
 
 const services = [
   {
-    image: 'cool-world-website/images/ac-service.jpg',
+    image: 'images/ac-service.jpg',
     title: 'AC Service',
     price: 'On Request',
     description: 'Complete filter cleaning, coolant top-up, and performance check',
   },
   {
-    image: 'cool-world-website/images/ac-repair.jpg',
+    image: 'images/ac-repair.jpg',
     title: 'AC Repair',
     price: 'On Request',
     description: 'Professional on-site diagnosis and component repair',
   },
   {
-    image: 'cool-world-website/images/gas-filling.jpg',
+    image: 'images/gas-filling.jpg',
     title: 'Gas Filling',
     price: 'On Request',
     description: 'Leak detection, pressure check, and refrigerant refill',
   },
   {
-    image: 'cool-world-website/images/ac-install.jpeg',
+    image: 'images/ac-install.jpeg',
     title: 'AC Installation',
     price: 'On Request',
     description: 'Expert setup and installation with warranty',
   },
   {
-    image: 'cool-world-website/images/refridge repair.jpeg',
+    image: 'images/refridge-repair.jpeg',
     title: 'Refrigerator Repair',
     price: 'Varies',
     description: 'Thermostat, cooling issues, and compressor repair',
   },
   {
-    image: 'cool-world-website/images/deep clean.jpg',
+    image: 'images/deep-clean.jpg',
     title: 'Deep Cleaning',
     price: 'Varies',
     description: 'Coil disinfection, duct cleaning, and sanitization',
   },
   {
-    image: 'cool-world-website/images/cooling.jpeg',
+    image: 'images/cooling.jpeg',
     title: 'Commercial Freezer',
     price: 'On Request',
     description: 'Hotel and restaurant equipment maintenance',
@@ -46,7 +46,6 @@ const services = [
 ];
 
 export default function Services() {
-  return (
     <section className="py-20 px-4">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
@@ -64,7 +63,6 @@ export default function Services() {
               key={index}
               className="group backdrop-blur-md bg-white/10 rounded-2xl border border-white/20 p-8 hover:bg-white/20 hover:border-cyan-400/50 transition-all duration-300 transform hover:scale-105"
             >
-              {/* Service image */}
               <img
                 src={service.image}
                 alt={service.title}
@@ -79,6 +77,7 @@ export default function Services() {
 
               <h3 className="text-2xl font-bold text-white mb-3">{service.title}</h3>
               <p className="text-white/70 mb-6">{service.description}</p>
+
               <Link
                 to="/contact"
                 className="inline-block px-6 py-2 bg-gradient-to-r from-orange-500 to-orange-600 text-white rounded-full text-sm font-semibold hover:from-orange-600 hover:to-orange-700 transition-all"
