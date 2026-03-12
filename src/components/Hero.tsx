@@ -41,7 +41,7 @@ export default function Hero() {
 
         <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-6">
           <div className="backdrop-blur-md bg-white/10 rounded-2xl border border-white/20 p-6 hover:bg-white/20 transition-all">
-            <div className="text-4xl font-bold text-cyan-400 mb-2">500+</div>
+            <div className="text-4xl font-bold text-cyan-400 mb-2">1000+</div>
             <div className="text-white/80">Happy Customers</div>
           </div>
           <div className="backdrop-blur-md bg-white/10 rounded-2xl border border-white/20 p-6 hover:bg-white/20 transition-all">
