@@ -10,7 +10,8 @@ export default function Hero() {
             Zero Hassle Cooling at Your <span className="text-cyan-400">Doorstep</span>
           </h1>
           <p className="text-xl md:text-2xl text-white/80 mb-12 max-w-3xl mx-auto">
-            Premium AC repair, installation, and cooling solutions trusted by Bangalore's finest restaurants and businesses
+            Premium AC repair, installation, and cooling solutions trusted by Bangalore's finest restaurants and businesses with over <br></br>
+            25+ years experience • 14+ years restaurant support • Same-day service • Homes & Restaurants.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">

@@ -4,7 +4,7 @@ const services = [
   {
     image: 'cool-world-website/images/ac-service.jpg',
     title: 'AC Service',
-    price: '₹799',
+    price: 'On Request',
     description: 'Complete filter cleaning, coolant top-up, and performance check',
   },
   {
@@ -16,7 +16,7 @@ const services = [
   {
     image: 'cool-world-website/images/gas-filling.jpg',
     title: 'Gas Filling',
-    price: '₹1,799',
+    price: 'On Request',
     description: 'Leak detection, pressure check, and refrigerant refill',
   },
   {
@@ -34,7 +34,7 @@ const services = [
   {
     image: 'cool-world-website/images/deep clean.jpg',
     title: 'Deep Cleaning',
-    price: '₹799',
+    price: 'Varies',
     description: 'Coil disinfection, duct cleaning, and sanitization',
   },
   {
