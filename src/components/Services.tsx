@@ -46,6 +46,7 @@ const services = [
 ];
 
 export default function Services() {
+  return (
     <section className="py-20 px-4">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
