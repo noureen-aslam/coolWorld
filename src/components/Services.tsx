@@ -2,43 +2,43 @@ import { Link } from 'react-router-dom';
 
 const services = [
   {
-    image: 'images/ac-service.jpg',
+    image: '/images/ac-service.jpg',
     title: 'AC Service',
     price: 'On Request',
     description: 'Complete filter cleaning, coolant top-up, and performance check',
   },
   {
-    image: 'images/ac-repair.jpg',
+    image: '/images/ac-repair.jpg',
     title: 'AC Repair',
     price: 'On Request',
     description: 'Professional on-site diagnosis and component repair',
   },
   {
-    image: 'images/gas-filling.jpg',
+    image: '/images/gas-filling.jpg',
     title: 'Gas Filling',
     price: 'On Request',
     description: 'Leak detection, pressure check, and refrigerant refill',
   },
   {
-    image: 'images/ac-install.jpeg',
+    image: '/images/ac-install.jpeg',
     title: 'AC Installation',
     price: 'On Request',
     description: 'Expert setup and installation with warranty',
   },
   {
-    image: 'images/refridge-repair.jpeg',
+    image: '/images/refridge-repair.jpeg',
     title: 'Refrigerator Repair',
     price: 'Varies',
     description: 'Thermostat, cooling issues, and compressor repair',
   },
   {
-    image: 'images/deep-clean.jpg',
+    image: '/images/deep-clean.jpg',
     title: 'Deep Cleaning',
     price: 'Varies',
     description: 'Coil disinfection, duct cleaning, and sanitization',
   },
   {
-    image: 'images/cooling.jpeg',
+    image: '/images/cooling.jpeg',
     title: 'Commercial Freezer',
     price: 'On Request',
     description: 'Hotel and restaurant equipment maintenance',
