@@ -9,7 +9,8 @@ import ThankYou from './pages/ThankYou';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/coolWorld">
+
       <div className="min-h-screen">
         <Navigation />
         <Routes>
